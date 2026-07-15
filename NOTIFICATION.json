@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "notifications": [
+    {
+      "id": "v3-3-0-available",
+      "type": "version",
+      "severity": "info",
+      "title": "(TEST) CLEAVE v3.3.0 is available",
+      "message": "Download the latest version for improved performance and new features.",
+      "latest_version": "3.3.0",
+      "link": "https://github.com/...",
+      "published_at": "2026-07-15",
+      "expires": null
+    },
+    {
+      "id": "q3-2026-tips",
+      "type": "news",
+      "severity": "info",
+      "title": "(TEST) Tip: Use named profiles to save your reconcile configs",
+      "message": "Profiles let you reload column mappings and logic settings in one click.",
+      "link": null,
+      "published_at": "2026-07-15",
+      "expires": "2026-10-01"
+    }
+  ]
+}
