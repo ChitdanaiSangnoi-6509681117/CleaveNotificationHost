@@ -2,25 +2,25 @@
   "schema_version": 1,
   "notifications": [
     {
-      "id": "v3-3-0-available",
+      "id": "v3-2-4-0-available",
       "type": "version",
       "severity": "info",
-      "title": "(TEST) CLEAVE v3.3.0 is available",
-      "message": "Download the latest version for improved performance and new features.",
-      "latest_version": "3.3.0",
-      "link": "https://github.com/...",
-      "published_at": "2026-07-15",
+      "title": "CLEAVE v3.2.4.0 is available",
+      "message": "Critical \"Postload Only\" fidelity fix, Multiple File Reconciliation, Custom Group Split, the unmatched-key Drop action, per-unit sheet tab colors, and workflow polish. Update for the latest.",
+      "latest_version": "3.2.4.0",
+      "link": "https://github.com/ChitdanaiSangnoi-6509681117",
+      "published_at": "2026-07-21",
       "expires": null
     },
     {
-      "id": "q3-2026-tips",
-      "type": "news",
+      "id": "v3-2-4-0-highlights",
+      "type": "announcement",
       "severity": "info",
-      "title": "(TEST) Tip: Use named profiles to save your reconcile configs",
-      "message": "Profiles let you reload column mappings and logic settings in one click.",
+      "title": "What's new in CLEAVE v3.2.4.0",
+      "message": "Reconcile is now Multiple-File: reconcile several file sets into ONE workbook with a leading Overview sheet, per-unit tab colors, and double-click rename. Plus a critical \"Postload Only\" fidelity fix; unmatched keys can now Exclude / Drop / Include; Custom Group Split with \"separate sheets vs separate files\" for both split modes; drag-and-drop reordering; and quick paths that open the picker right where you saved them.",
       "link": null,
-      "published_at": "2026-07-15",
-      "expires": "2026-10-01"
+      "published_at": "2026-07-21",
+      "expires": "2026-12-31"
     }
   ]
 }
