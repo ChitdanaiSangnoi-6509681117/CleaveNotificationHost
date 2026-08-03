@@ -2,24 +2,24 @@
   "schema_version": 1,
   "notifications": [
     {
-      "id": "v3-2-4-1-available",
+      "id": "v3-2-4-2-available",
       "type": "version",
       "severity": "info",
-      "title": "CLEAVE v3.2.4.1 is available",
-      "message": "New: sync the same input file across every reconcile unit and Merge sheet (file / header row / sheet, with a Reset). Also includes everything from the 3.2.4.0 release. Update for the latest.",
-      "latest_version": "3.2.4.1",
-      "link": "https://myoffice.accenture.com/:u:/g/personal/c_sangnoi_accenture_com/IQDrfh3-EQdsSaWgdu20VPbKAQWj80Xq6ld7jHShYfRX_pA?e=D1w5p7",
-      "published_at": "2026-07-21",
+      "title": "CLEAVE v3.2.4.2 is available",
+      "message": "New: no-match key records are no longer counted as failed (reported separately, with a new Overview \"No Match\" column), a per-unit Results preview, an isolated Batch Inspector job that stays responsive, faster file selection, reusing a previous run's config from Backlogs, and a wider, responsive layout. Update for the latest.",
+      "latest_version": "3.2.4.2",
+      "link": "https://myoffice.accenture.com/:u:/g/personal/c_sangnoi_accenture_com/IQAozFCX-GIvQJXfY75IEe_SAdWFt91IfU2YvWiC_zvi06c?e=HJPlZb",
+      "published_at": "2026-08-02",
       "expires": null
     },
     {
-      "id": "v3-2-4-1-highlights",
+      "id": "v3-2-4-2-highlights",
       "type": "announcement",
       "severity": "info",
-      "title": "What's new in CLEAVE v3.2.4.1",
-      "message": "\"Sync same file across units / sheets\": a file-section toggle (off by default) that reuses one input file across every reconcile unit or Merge sheet-tab. A settings popover picks what carries over — the file, its header row, and/or its sheet (defaults sync the file + header row; each unit keeps its own sheet). In Reconcile, preload and postload sync independently; in Merge the header-source crown follows the files. Turning it on conforms every unit/tab to the active one.",
+      "title": "What's new in CLEAVE v3.2.4.2",
+      "message": "Reconcile no longer counts no-matched (one-sided) key records as failed — matched, mismatched, and no-match are reported separately, live and in the Overview sheet (new \"No Match\" column). The in-app Results preview now populates per unit (with a unit selector) and shows only records that matched on both files. Batch Inspector stays responsive because the engine job now runs in an isolated process. File selection is faster (counts read from metadata), you can reuse a previous run's config from Backlogs, and the main layout is wider and screen-responsive with Open file / Open folder on every result.",
       "link": null,
-      "published_at": "2026-07-21",
+      "published_at": "2026-08-02",
       "expires": "2026-12-31"
     }
   ]
