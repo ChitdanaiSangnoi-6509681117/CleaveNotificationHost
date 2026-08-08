@@ -2,24 +2,24 @@
   "schema_version": 1,
   "notifications": [
     {
-      "id": "v3-2-4-2-available",
+      "id": "v3-2-4-3-available",
       "type": "version",
       "severity": "info",
-      "title": "CLEAVE v3.2.4.2 is available",
-      "message": "New: no-match key records are no longer counted as failed (reported separately, with a new Overview \"No Match\" column), a per-unit Results preview, an isolated Batch Inspector job that stays responsive, faster file selection, reusing a previous run's config from Backlogs, and a wider, responsive layout. Update for the latest.",
-      "latest_version": "3.2.4.2",
-      "link": "https://myoffice.accenture.com/:u:/g/personal/c_sangnoi_accenture_com/IQAozFCX-GIvQJXfY75IEe_SAdWFt91IfU2YvWiC_zvi06c?e=HJPlZb",
-      "published_at": "2026-08-02",
+      "title": "CLEAVE v3.2.4.3 is available",
+      "message": "New: Reconcile can replace a column's value in the Main Status sheet with another column (not just add columns); Merge lets you pick a different header source per output sheet even when files are synced; and the UI wording is unified across tools. Update for the latest.",
+      "latest_version": "3.2.4.3",
+      "link": "https://myoffice.accenture.com/:u:/g/personal/c_sangnoi_accenture_com/IQBJ-waf0I4vSL87JIuLgVOGASU7Sa5bZtA9rLglXF3oGYs?e=eN3ytE",
+      "published_at": "2026-08-08",
       "expires": null
     },
     {
-      "id": "v3-2-4-2-highlights",
+      "id": "v3-2-4-3-highlights",
       "type": "announcement",
       "severity": "info",
-      "title": "What's new in CLEAVE v3.2.4.2",
-      "message": "Reconcile no longer counts no-matched (one-sided) key records as failed — matched, mismatched, and no-match are reported separately, live and in the Overview sheet (new \"No Match\" column). The in-app Results preview now populates per unit (with a unit selector) and shows only records that matched on both files. Batch Inspector stays responsive because the engine job now runs in an isolated process. File selection is faster (counts read from metadata), you can reuse a previous run's config from Backlogs, and the main layout is wider and screen-responsive with Open file / Open folder on every result.",
+      "title": "What's new in CLEAVE v3.2.4.3",
+      "message": "Reconcile's Extra Output Information can now replace an existing compared column's value in the Main Status sheet with a chosen source column (Reconcile Detail and Diff Report keep the original). Merge lets you choose a different header source per output sheet even when \"Sync same file across sheets\" is on — e.g. sheet 1 from workbook A, sheet 2 from workbook B — via a new \"Sync header source\" sub-toggle (off by default). Wording and casing are unified across all tools.",
       "link": null,
-      "published_at": "2026-08-02",
+      "published_at": "2026-08-08",
       "expires": "2026-12-31"
     }
   ]
