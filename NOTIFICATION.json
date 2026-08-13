@@ -13,6 +13,46 @@
       "expires": null
     },
     {
+      "id": "v3-2-5-coming-soon",
+      "type": "announcement",
+      "severity": "info",
+      "title": "Coming soon: CLEAVE v3.2.5",
+      "message": "We're making Reconcile easier to trust before you press Run. The next update lets you preview your match keys and simulate your output up front, points you to anything still missing in your setup, and gives every tool a cleaner, more consistent look. It's still in the works — here's an early peek at what's coming.",
+      "link": null,
+      "published_at": "2026-08-14",
+      "expires": "2026-12-31"
+    },
+    {
+      "id": "v3-2-5-key-preview",
+      "type": "news",
+      "severity": "info",
+      "title": "Sneak peek: see your keys before you run",
+      "message": "A new Keys view will list every match key from all your preload and postload files side by side, tag the ones that line up on both sides as \"matches\", and flag duplicates and keys found on only one side. You'll be able to filter, search, and click any key to jump straight to that row in the file. Coming in v3.2.5.",
+      "link": null,
+      "published_at": "2026-08-14",
+      "expires": "2026-12-31"
+    },
+    {
+      "id": "v3-2-5-simulate",
+      "type": "news",
+      "severity": "info",
+      "title": "Sneak peek: simulate your reconcile output",
+      "message": "A new Simulate button will do a quick trial run and show the exact sheets and records you'll get — in an Excel-style table with the real highlight colors — so you can check the result before the full run. Coming in v3.2.5.",
+      "link": null,
+      "published_at": "2026-08-14",
+      "expires": "2026-12-31"
+    },
+    {
+      "id": "v3-2-5-cleaner-ui",
+      "type": "news",
+      "severity": "info",
+      "title": "Sneak peek: a tidier, clearer CLEAVE",
+      "message": "The next update smooths out the whole app: matching icons and headings on every section, help pop-ups that stay clear of what's behind them, file panels that show how many records each workbook holds, and setup hints that take you straight to whatever still needs attention. Coming in v3.2.5.",
+      "link": null,
+      "published_at": "2026-08-14",
+      "expires": "2026-12-31"
+    },
+    {
       "id": "v3-2-4-3-highlights",
       "type": "announcement",
       "severity": "info",
