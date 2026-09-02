@@ -2,64 +2,24 @@
   "schema_version": 1,
   "notifications": [
     {
-      "id": "v3-2-4-3-available",
+      "id": "v3-3-0-0-available",
       "type": "version",
       "severity": "info",
-      "title": "CLEAVE v3.2.4.3 is available",
-      "message": "New: Reconcile can replace a column's value in the Main Status sheet with another column (not just add columns); Merge lets you pick a different header source per output sheet even when files are synced; and the UI wording is unified across tools. Update for the latest.",
-      "latest_version": "3.2.4.3",
-      "link": "https://myoffice.accenture.com/:u:/g/personal/c_sangnoi_accenture_com/IQBJ-waf0I4vSL87JIuLgVOGASU7Sa5bZtA9rLglXF3oGYs?e=eN3ytE",
-      "published_at": "2026-08-08",
+      "title": "CLEAVE v3.3.0.0 is available",
+      "message": "Big files, without the wait. Split and Merge now stream their output and read a workbook's layout without opening every cell, and \"Keep all formatting\" is several times faster on a fraction of the memory. Backlogs became a real monitor — every active and queued job shows its step and time left, above a strip with the batch's elapsed time, estimated finish, memory and free disk — and you can re-point a queued job's output before it starts. Includes everything from 3.2.5.0. Update for the latest.",
+      "latest_version": "3.3.0.0",
+      "link": "https://myoffice.accenture.com/:u:/g/personal/c_sangnoi_accenture_com/IQAjxn3MG7gXTZhu9CWezBHDAeaMJI1ExE7q-yaLBgAS1mw?e=AANTUo",
+      "published_at": "2026-08-21",
       "expires": null
     },
     {
-      "id": "v3-2-5-coming-soon",
+      "id": "v3-3-0-0-highlights",
       "type": "announcement",
       "severity": "info",
-      "title": "Coming soon: CLEAVE v3.2.5",
-      "message": "We're making Reconcile easier to trust before you press Run. The next update lets you preview your match keys and simulate your output up front, points you to anything still missing in your setup, and gives every tool a cleaner, more consistent look. It's still in the works — here's an early peek at what's coming.",
+      "title": "What's new in CLEAVE v3.3.0.0",
+      "message": "This release is about large workbooks. Split and Merge write output a row at a time instead of building the whole file in memory, read column widths and merged cells without touching every cell, and scale their workers to the RAM you have; \"Keep all formatting\" now captures only the cells that are actually coloured, turning minutes and gigabytes into seconds and megabytes. A new \"Keep column widths\" toggle (off by default) lets you skip the slowest remaining step. Backlogs shows each job's tool, current step and time left, plus the batch's elapsed time, estimated finish, memory use and free disk — and a queued job's output destination can be changed before it runs. Reconcile's side-by-side results sheet is now actually produced, the column-mapping search filters properly, file rows only reorder from their grip handle, help tips are short bullet lists, and output boxes remember several recent locations. Everything from 3.2.5.0 — Simulate in every tool, the live key preview, Batch Inspector's Deep scan, column names from a Name row — is included.",
       "link": null,
-      "published_at": "2026-08-14",
-      "expires": "2026-12-31"
-    },
-    {
-      "id": "v3-2-5-key-preview",
-      "type": "news",
-      "severity": "info",
-      "title": "Sneak peek: see your keys before you run",
-      "message": "A new Keys view will list every match key from all your preload and postload files side by side, tag the ones that line up on both sides as \"matches\", and flag duplicates and keys found on only one side. You'll be able to filter, search, and click any key to jump straight to that row in the file. Coming in v3.2.5.",
-      "link": null,
-      "published_at": "2026-08-14",
-      "expires": "2026-12-31"
-    },
-    {
-      "id": "v3-2-5-simulate",
-      "type": "news",
-      "severity": "info",
-      "title": "Sneak peek: simulate your reconcile output",
-      "message": "A new Simulate button will do a quick trial run and show the exact sheets and records you'll get — in an Excel-style table with the real highlight colors — so you can check the result before the full run. Coming in v3.2.5.",
-      "link": null,
-      "published_at": "2026-08-14",
-      "expires": "2026-12-31"
-    },
-    {
-      "id": "v3-2-5-cleaner-ui",
-      "type": "news",
-      "severity": "info",
-      "title": "Sneak peek: a tidier, clearer CLEAVE",
-      "message": "The next update smooths out the whole app: matching icons and headings on every section, help pop-ups that stay clear of what's behind them, file panels that show how many records each workbook holds, and setup hints that take you straight to whatever still needs attention. Coming in v3.2.5.",
-      "link": null,
-      "published_at": "2026-08-14",
-      "expires": "2026-12-31"
-    },
-    {
-      "id": "v3-2-4-3-highlights",
-      "type": "announcement",
-      "severity": "info",
-      "title": "What's new in CLEAVE v3.2.4.3",
-      "message": "Reconcile's Extra Output Information can now replace an existing compared column's value in the Main Status sheet with a chosen source column (Reconcile Detail and Diff Report keep the original). Merge lets you choose a different header source per output sheet even when \"Sync same file across sheets\" is on — e.g. sheet 1 from workbook A, sheet 2 from workbook B — via a new \"Sync header source\" sub-toggle (off by default). Wording and casing are unified across all tools.",
-      "link": null,
-      "published_at": "2026-08-08",
+      "published_at": "2026-08-21",
       "expires": "2026-12-31"
     }
   ]
