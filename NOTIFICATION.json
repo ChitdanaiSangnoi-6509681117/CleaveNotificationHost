@@ -2,25 +2,25 @@
   "schema_version": 1,
   "notifications": [
     {
-      "id": "v3-3-0-0-available",
+      "id": "v3-3-1-0-available",
       "type": "version",
       "severity": "info",
-      "title": "CLEAVE v3.3.0.0 is available",
-      "message": "Big files, without the wait. Split and Merge now stream their output and read a workbook's layout without opening every cell, and \"Keep all formatting\" is several times faster on a fraction of the memory. Backlogs became a real monitor — every active and queued job shows its step and time left, above a strip with the batch's elapsed time, estimated finish, memory and free disk — and you can re-point a queued job's output before it starts. Includes everything from 3.2.5.0. Update for the latest.",
-      "latest_version": "3.3.0.0",
-      "link": "https://myoffice.accenture.com/:u:/g/personal/c_sangnoi_accenture_com/IQAjxn3MG7gXTZhu9CWezBHDAeaMJI1ExE7q-yaLBgAS1mw?e=AANTUo",
-      "published_at": "2026-08-21",
+      "title": "CLEAVE v3.3.1.0 is available",
+      "message": "CLEAVE now speaks Thai, and can write its own reconcile config. Switch the interface to Thai in Settings — no restart, and your files and output are untouched. Cleaver, a new AI assistant, turns your column headers into a ready-to-import reconcile profile without your data ever leaving the machine. And a new Auto detect button reads a file and works out which row is the header, including the awkward shapes: multi-row spec headers, AS-IS/TO-BE pairs, pivots with a Grand Total, and signature blocks. Includes everything from 3.3.0.0. Update for the latest.",
+      "latest_version": "3.3.1.0",
+      "link": "https://myoffice.accenture.com/:u:/g/personal/c_sangnoi_accenture_com/IQCo8nFPvKl1Rp5zYcu2OfusARm3kK2jYY__rDrJvnYwsR4?e=YFzejz",
+      "published_at": "2026-09-23",
       "expires": null
     },
     {
-      "id": "v3-3-0-0-highlights",
+      "id": "v3-3-1-0-highlights",
       "type": "announcement",
       "severity": "info",
-      "title": "What's new in CLEAVE v3.3.0.0",
-      "message": "This release is about large workbooks. Split and Merge write output a row at a time instead of building the whole file in memory, read column widths and merged cells without touching every cell, and scale their workers to the RAM you have; \"Keep all formatting\" now captures only the cells that are actually coloured, turning minutes and gigabytes into seconds and megabytes. A new \"Keep column widths\" toggle (off by default) lets you skip the slowest remaining step. Backlogs shows each job's tool, current step and time left, plus the batch's elapsed time, estimated finish, memory use and free disk — and a queued job's output destination can be changed before it runs. Reconcile's side-by-side results sheet is now actually produced, the column-mapping search filters properly, file rows only reorder from their grip handle, help tips are short bullet lists, and output boxes remember several recent locations. Everything from 3.2.5.0 — Simulate in every tool, the live key preview, Batch Inspector's Deep scan, column names from a Name row — is included.",
+      "title": "What's new in CLEAVE v3.3.1.0",
+      "message": "Three things. The interface is now available in Thai — switchable in Settings with no restart, with the Thai typeface bundled so it works offline; tool names, CLEAVE's own vocabulary and the sheet names in a produced workbook stay English so your output is unchanged. Cleaver is a new AI assistant that reads your column headers and writes the reconcile profile: open it from Home, or hand it the files already on screen from Reconcile. And Auto detect finds a sheet's header row in one click, naming the file it read and how sure it is — a reading it cannot support says so rather than guessing. Reconcile also gains duplicate-a-unit, selective config copy and undo/redo; multi-sheet Split shows a proper file/sheet hierarchy; long file lists reorder instantly again; and a batch of fixes lands across Auto detect, the AI hand-off, and the Thai interface.",
       "link": null,
-      "published_at": "2026-08-21",
-      "expires": "2026-12-31"
+      "published_at": "2026-09-23",
+      "expires": "2027-03-31"
     }
   ]
 }
