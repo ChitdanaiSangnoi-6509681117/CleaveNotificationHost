@@ -2,24 +2,24 @@
   "schema_version": 1,
   "notifications": [
     {
-      "id": "v3-3-1-0-available",
+      "id": "v3-3-1-1-available",
       "type": "version",
       "severity": "info",
-      "title": "CLEAVE v3.3.1.0 is available",
-      "message": "CLEAVE now speaks Thai, and can write its own reconcile config. Switch the interface to Thai in Settings — no restart, and your files and output are untouched. Cleaver, a new AI assistant, turns your column headers into a ready-to-import reconcile profile without your data ever leaving the machine. And a new Auto detect button reads a file and works out which row is the header, including the awkward shapes: multi-row spec headers, AS-IS/TO-BE pairs, pivots with a Grand Total, and signature blocks. Includes everything from 3.3.0.0. Update for the latest.",
-      "latest_version": "3.3.1.0",
-      "link": "https://myoffice.accenture.com/:u:/g/personal/c_sangnoi_accenture_com/IQCo8nFPvKl1Rp5zYcu2OfusARm3kK2jYY__rDrJvnYwsR4?e=YFzejz",
-      "published_at": "2026-09-23",
+      "title": "CLEAVE v3.3.1.1 is available",
+      "message": "Reconcile output correctness. Main_Status now reproduces the header block in the source file's own order — a crossed column mapping used to print the Preload header permuted to match the pairing, so an AS-IS label could sit above TO-BE data. A new Header source option takes the Postload's own header row instead. \"Show unmapped columns\" is now \"Carry all within range\" and drops the columns outside the range. Backlogs no longer loses a run when two finish at once. Includes everything from 3.3.1.0. Update for the latest.",
+      "latest_version": "3.3.1.1",
+      "link": "https://myoffice.accenture.com/:u:/g/personal/c_sangnoi_accenture_com/IQC5Sy56mtO9RbFfhX5M0HolAY80jvp0avlFBaDqDb7KxN0?e=D53DUS",
+      "published_at": "2026-09-24",
       "expires": null
     },
     {
-      "id": "v3-3-1-0-highlights",
+      "id": "v3-3-1-1-highlights",
       "type": "announcement",
       "severity": "info",
-      "title": "What's new in CLEAVE v3.3.1.0",
-      "message": "Three things. The interface is now available in Thai — switchable in Settings with no restart, with the Thai typeface bundled so it works offline; tool names, CLEAVE's own vocabulary and the sheet names in a produced workbook stay English so your output is unchanged. Cleaver is a new AI assistant that reads your column headers and writes the reconcile profile: open it from Home, or hand it the files already on screen from Reconcile. And Auto detect finds a sheet's header row in one click, naming the file it read and how sure it is — a reading it cannot support says so rather than guessing. Reconcile also gains duplicate-a-unit, selective config copy and undo/redo; multi-sheet Split shows a proper file/sheet hierarchy; long file lists reorder instantly again; and a batch of fixes lands across Auto detect, the AI hand-off, and the Thai interface.",
+      "title": "What's new in CLEAVE v3.3.1.1",
+      "message": "Four changes, all in Reconcile's output. The header block above Main_Status is now laid down in the source file's own order rather than through the column pairing — place the header, place the body, line up the start column; a crossed mapping can no longer put an AS-IS label over TO-BE data, and column order, values and report letters are untouched. A new Header source option lets you take the Postload's own single header row instead of the Preload's multi-row spec block. \"Show unmapped columns\" becomes \"Carry all within range\": it now carries only the uncompared columns inside the Postload range, so the key band ahead of it and the file's trailing tail behind the last pair stop being appended to every sheet. And Backlogs keeps every run when two finish at the same moment, and reports a failed delete instead of swallowing it.",
       "link": null,
-      "published_at": "2026-09-23",
+      "published_at": "2026-09-24",
       "expires": "2027-03-31"
     }
   ]
