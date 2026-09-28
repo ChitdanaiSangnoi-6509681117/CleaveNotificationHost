@@ -2,24 +2,24 @@
   "schema_version": 1,
   "notifications": [
     {
-      "id": "v3-3-1-1-available",
+      "id": "v3-3-2-0-available",
       "type": "version",
       "severity": "info",
-      "title": "CLEAVE v3.3.1.1 is available",
-      "message": "Reconcile output correctness. Main_Status now reproduces the header block in the source file's own order — a crossed column mapping used to print the Preload header permuted to match the pairing, so an AS-IS label could sit above TO-BE data. A new Header source option takes the Postload's own header row instead. \"Show unmapped columns\" is now \"Carry all within range\" and drops the columns outside the range. Backlogs no longer loses a run when two finish at once. Includes everything from 3.3.1.0. Update for the latest.",
-      "latest_version": "3.3.1.1",
-      "link": "https://myoffice.accenture.com/:u:/g/personal/c_sangnoi_accenture_com/IQC5Sy56mtO9RbFfhX5M0HolAY80jvp0avlFBaDqDb7KxN0?e=D53DUS",
-      "published_at": "2026-09-24",
+      "title": "CLEAVE v3.3.2.0 is available",
+      "message": "Config Helper — a new button on each Reconcile unit that sets up the whole configuration by clicking through your own files. Choose a file and click its header row, click the first and last column of the compare range on two sheets that are lined up and scroll together, build the key with a live preview, then check the pairing against real rows before you run. Apply hands it to the Reconcile form as a normal configuration. Settings also loses its developer section. Includes everything from 3.3.1.1.",
+      "latest_version": "3.3.2.0",
+      "link": "https://myoffice.accenture.com/:u:/g/personal/c_sangnoi_accenture_com/IQCh7-pNmsHXTZfm1aku6p-2AYvbESz88CPnmJyCxOS_I84?e=iD6Vt6",
+      "published_at": "2026-09-28",
       "expires": null
     },
     {
-      "id": "v3-3-1-1-highlights",
+      "id": "v3-3-2-0-highlights",
       "type": "announcement",
       "severity": "info",
-      "title": "What's new in CLEAVE v3.3.1.1",
-      "message": "Four changes, all in Reconcile's output. The header block above Main_Status is now laid down in the source file's own order rather than through the column pairing — place the header, place the body, line up the start column; a crossed mapping can no longer put an AS-IS label over TO-BE data, and column order, values and report letters are untouched. A new Header source option lets you take the Postload's own single header row instead of the Preload's multi-row spec block. \"Show unmapped columns\" becomes \"Carry all within range\": it now carries only the uncompared columns inside the Postload range, so the key band ahead of it and the file's trailing tail behind the last pair stop being appended to every sheet. And Backlogs keeps every run when two finish at the same moment, and reports a failed delete instead of swallowing it.",
+      "title": "What's new in CLEAVE v3.3.2.0",
+      "message": "Configuring a reconcile no longer starts with an empty form. The Config Helper asks for one thing at a time against the real sheet: click the row that holds your column names, click the first and last column of the range — with both sheets lined up pair above pair, scrolling together, and skipped columns cut out of the layout — then click the columns that make the key and watch it assemble, padded zeros highlighted inside the key itself. Before you run, the Match Tolerance step reads real rows through the engine's own comparison and shows them side by side: three key tallies you can open and list, the four granular match options as switches that re-read the sample, jump-to-next-difference, and click a pair to ignore it. The last step picks the destination and the sheets. Everything it produces is an ordinary configuration on the Reconcile form, so the readiness rail, the key preview and Simulate still apply.",
       "link": null,
-      "published_at": "2026-09-24",
+      "published_at": "2026-09-28",
       "expires": "2027-03-31"
     }
   ]
